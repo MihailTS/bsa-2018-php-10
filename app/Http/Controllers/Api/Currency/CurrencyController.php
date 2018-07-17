@@ -22,6 +22,6 @@ class CurrencyController extends Controller
             $this->dispatch($job);
         }
 
-        return json_encode($currency);
+        return response()->json($currency);
     }
 }
